@@ -1,0 +1,5 @@
+
+lien avec un csv
+corps/tete
+les bulles
+le temps n'avance pas quand on maintient le slider
