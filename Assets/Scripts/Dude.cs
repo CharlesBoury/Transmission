@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[ExecuteInEditMode]
+
 public class Dude : MonoBehaviour {
 
 	public List< List<RDV> > allParcours = new List< List<RDV> >();
@@ -31,6 +31,8 @@ public class Dude : MonoBehaviour {
 		allParcours.Add(parcours2);
 
 		monParcours = allParcours[id];
+		// mesBulles
+		// mes masques
 	}
 
 	void Update() {
@@ -41,7 +43,7 @@ public class Dude : MonoBehaviour {
 		RDV next = getNextRDV(monParcours, currentTime);
 		if(next.time > previous.time) {
 			float timeCursor = (currentTime - previous.time) / (next.time - previous.time);
-			transform.position = previous.position + (next.position - previous.position) * timeCursor;	
+			transform.position = previous.position + (next.position - previous.position) * smoothStep(timeCursor);	
 		} else transform.position = next.position;
 		
 	}
@@ -59,5 +61,9 @@ public class Dude : MonoBehaviour {
 			if (t <= rdv.time) return rdv;
 		}
 		return parcours[parcours.Count - 1];
+	}
+
+	public float smoothStep(float x) {
+		return x * x * x * (6 * x * x - 15 * x + 10);
 	}
 }
