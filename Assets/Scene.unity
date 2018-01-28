@@ -345,11 +345,37 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &81794823 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1026153949991686, guid: 94be45d8129e540f4a4a69aa7f8ec504,
+    type: 2}
+  m_PrefabInternal: {fileID: 964511908}
 --- !u!4 &81794824 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4152123226377982, guid: 94be45d8129e540f4a4a69aa7f8ec504,
     type: 2}
   m_PrefabInternal: {fileID: 964511908}
+--- !u!114 &81794826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 81794823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413a8fecfc69e4e1ba44c8cb37343ad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!210 &81794827
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 81794823}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1409
 --- !u!1 &244119047
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +449,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1331221397
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &244119051
@@ -459,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainSlider: {fileID: 73551316}
   displayTime: {fileID: 1681113993}
-  vitesse: 200
+  vitesse: 120
 --- !u!4 &315185268 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4152123226377982, guid: 94be45d8129e540f4a4a69aa7f8ec504,
@@ -513,27 +539,6 @@ Prefab:
       propertyPath: m_Name
       value: Mercedes
       objectReference: {fileID: 0}
-    - target: {fileID: 212405519978431672, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.75735295
-      objectReference: {fileID: 0}
-    - target: {fileID: 212405519978431672, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.75735295
-      objectReference: {fileID: 0}
-    - target: {fileID: 212405519978431672, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0.75735295
-      objectReference: {fileID: 0}
-    - target: {fileID: 212909188565451530, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 8832e7db33f8c4e35b1484b87ab0f9ae,
-        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
   m_IsPrefabParent: 0
@@ -915,6 +920,26 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 768ebc3b5de8a4546bfb75cfbbba8131,
         type: 3}
+    - target: {fileID: 1982343644688716, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212537952717046704, guid: 94be45d8129e540f4a4a69aa7f8ec504,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a88a7bfedd4804a359ab7eede15ea008,
+        type: 3}
+    - target: {fileID: 212735097524617422, guid: 94be45d8129e540f4a4a69aa7f8ec504,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ac167935b995346e580baffee6b464b3,
+        type: 3}
+    - target: {fileID: 1877822080024722, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
   m_IsPrefabParent: 0
@@ -1187,6 +1212,16 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 45c4746e500c0423c99c0eca6c714160,
         type: 3}
+    - target: {fileID: 1982343644688716, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212537952717046704, guid: 94be45d8129e540f4a4a69aa7f8ec504,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a88a7bfedd4804a359ab7eede15ea008,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
   m_IsPrefabParent: 0
@@ -1276,9 +1311,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -10
+  m_SortingLayerID: -377463099
+  m_SortingLayer: -1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 850c2478b117544f9b94dbeb1434fec0, type: 3}
   m_Color: {r: 0.6102941, g: 0.6102941, b: 0.6102941, a: 1}
   m_FlipX: 0

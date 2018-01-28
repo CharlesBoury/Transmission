@@ -13,16 +13,18 @@ public class Dudes : MonoBehaviour {
 	}
 
 	void Update () {
-		if (mainSlider.value <= 0.25F){
-			animator.Play("La vie des gens 0", -1, mainSlider.value * 4);
-		}
-		else if (mainSlider.value <= 0.5F){
-			animator.Play("La vie des gens 1", -1, (mainSlider.value - 0.25F) * 4);
-		}
-		else if (mainSlider.value <= 0.75F){
-			animator.Play("La vie des gens 2", -1, (mainSlider.value - 0.5F) * 4);
-		}
-		else
-			animator.Play("La vie des gens 3", -1, (mainSlider.value - 0.75F) * 4);
+		animator.Play("La vie des gens", -1, mainSlider.value);
+		// if (mainSlider.value <= 0.25F){
+		// 	animator.Play("La vie des gens 0", -1, mainSlider.value * 4);
+		// }
+		// else if (mainSlider.value <= 0.5F){
+		// 	animator.Play("La vie des gens 1", -1, (mainSlider.value - 0.25F) * 4);
+		// }
+		// else if (mainSlider.value <= 0.75F){
+		// 	animator.Play("La vie des gens 2", -1, (mainSlider.value - 0.5F) * 4);
+		// }
+		// else {
+		// 	animator.Play("La vie des gens 3", -1, (mainSlider.value - 0.75F) * 4);
+		// }
 	}
 }
