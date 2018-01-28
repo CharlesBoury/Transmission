@@ -555,26 +555,25 @@ Prefab:
       propertyPath: m_Name
       value: Mercedes
       objectReference: {fileID: 0}
-    - target: {fileID: 212909188565451530, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 41d3bbe2a20854c9a8bece0fa5ba2797,
-        type: 3}
-    - target: {fileID: 212545132498021934, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Color.r
+    - target: {fileID: 4260180022101102, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212545132498021934, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Color.g
+    - target: {fileID: 4260180022101102, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260180022101102, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212545132498021934, guid: 94be45d8129e540f4a4a69aa7f8ec504,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
+    - target: {fileID: 4843021053213172, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843021053213172, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.009
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 94be45d8129e540f4a4a69aa7f8ec504, type: 2}

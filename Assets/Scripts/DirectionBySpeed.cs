@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class DirectionBySpeed : MonoBehaviour {
 
-	Vector3 previousPos;
 	public Transform bulle;
-	public Animator animator;
+
+	Vector3 previousPos;
+	Animator animator;
 
 	void Start() {
 		previousPos = Vector3.zero;
 		animator = GetComponent<Animator>();
+		animator.SetFloat("cycleOffset", Random.value);
 	}
 
 	void Update () {
