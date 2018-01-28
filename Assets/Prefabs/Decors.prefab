@@ -2025,6 +2025,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4223741593639508}
+  - component: {fileID: 95847683133777454}
+  - component: {fileID: 114805288793234698}
   m_Layer: 0
   m_Name: Decors
   m_TagString: Untagged
@@ -4621,6 +4623,23 @@ Transform:
   m_Father: {fileID: 4661159018263566}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95847683133777454
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776338013932968}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18031e2ca802c493c927d7cf44981d26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114000650769072194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5721,6 +5740,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0644a702eeb7402eab868075d9c3371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114805288793234698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776338013932968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9fd7a0ec97ce435b900e4318ec87573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSlider: {fileID: 0}
+  nomDeLanim: Lampadaires
 --- !u!114 &114828598306592616
 MonoBehaviour:
   m_ObjectHideFlags: 1

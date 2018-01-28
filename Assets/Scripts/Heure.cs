@@ -9,9 +9,11 @@ public class Heure : MonoBehaviour {
 	public Text displayTime;
 
 	public float vitesse = 60;
+	[Range(0,1)]
+	public float debutDeLaJournee = 0.32F;
 
 	void Start () {
-		mainSlider.value = 0;
+		mainSlider.value = debutDeLaJournee;
 	}
 	void Update () {
 		mainSlider.value += Time.deltaTime * vitesse / (3600 * 24);
