@@ -10,6 +10,9 @@ public class Heure : MonoBehaviour {
 
 	public float vitesse = 60;
 
+	void Start () {
+		mainSlider.value = 0;
+	}
 	void Update () {
 		mainSlider.value += Time.deltaTime * vitesse / (3600 * 24);
 
